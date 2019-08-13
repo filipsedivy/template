@@ -1,0 +1,38 @@
+{
+    "name": "filipsedivy/TODO",
+    "description": "TODO",
+    "license": "MIT",
+    "keywords": [
+        "TODO"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Filip Šedivý",
+            "email": "mail@filipsedivy.cz",
+            "homepage": "https://filipsedivy.cz",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Package": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.1"
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
